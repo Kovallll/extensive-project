@@ -41,6 +41,9 @@ module.exports = {
         'import/extensions': 'off',
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
+        'linebreak-style': 'off',
+        'padded-blocks': 'off',
+        'arrow-body-style': 'off',
         'i18next/no-literal-string': [
             'error',
             {
@@ -49,6 +52,7 @@ module.exports = {
             },
         ],
         'max-len': ['error', { ignoreComments: true, code: 100 }],
+        'no-param-reassign': 'off',
     },
     globals: {
         __IS_DEV__: true,
